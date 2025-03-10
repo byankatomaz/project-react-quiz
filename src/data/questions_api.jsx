@@ -25,9 +25,9 @@ export default function API() {
     return (
     <div className="App">
         {user ? (
-          <p>{user[0].question}</p>
+          <p>{user[0]}</p>
         ) : (
-          <p>Loading...</p>
+          <p></p>
         )}
         {/* Resto do seu código */}
     </div>
